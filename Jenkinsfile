@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/vishnu148/week-4', branch: 'master'
+                git url: 'https://github.com/vishnu148/week-4', branch: 'main'
             }
         }
         stage('Execute Java Program') {
